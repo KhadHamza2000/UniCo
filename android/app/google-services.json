@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46499419727",
+    "project_id": "unico-46df2",
+    "storage_bucket": "unico-46df2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46499419727:android:64856bb3b27d62db077c3a",
+        "android_client_info": {
+          "package_name": "com.mycompany.unico"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYldZwBQueaXdogqti8P_0-tEJKAVSkrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
