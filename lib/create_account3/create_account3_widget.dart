@@ -170,7 +170,7 @@ class _CreateAccount3WidgetState extends State<CreateAccount3Widget>
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   Text(
-                                    'Get Started',
+                                    'Get Started!',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .displaySmall,
