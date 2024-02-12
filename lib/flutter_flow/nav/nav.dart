@@ -71,26 +71,22 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, state) => appStateNotifier.loggedIn
-          ? const Profile16CreateEditWidget()
-          : const CreateAccount3Widget(),
+      errorBuilder: (context, state) => appStateNotifier.loggedIn ? () : (),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => appStateNotifier.loggedIn
-              ? const Profile16CreateEditWidget()
-              : const CreateAccount3Widget(),
+          builder: (context, _) => appStateNotifier.loggedIn ? () : (),
         ),
         FFRoute(
-          name: 'CreateAccount3',
-          path: '/createAccount3',
-          builder: (context, params) => const CreateAccount3Widget(),
+          name: 'SignUp',
+          path: '/signUp',
+          builder: (context, params) => const SignUpWidget(),
         ),
         FFRoute(
-          name: 'Profile16CreateEdit',
-          path: '/profile16CreateEdit',
-          builder: (context, params) => const Profile16CreateEditWidget(),
+          name: 'SignIn',
+          path: '/signIn',
+          builder: (context, params) => const SignInWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -257,7 +253,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.location);
-            return '/createAccount3';
+            return '/';
           }
           return null;
         },

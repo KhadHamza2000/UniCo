@@ -1,4 +1,4 @@
-# UniCo
+# Unico
 
 A new Flutter project.
 

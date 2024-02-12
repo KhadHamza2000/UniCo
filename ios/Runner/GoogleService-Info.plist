@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyCmhx-hLTLNOED9lXyVAYGi9nZ_o6UJ6-U</string>
+	<string>AIzaSyBYbWZZXOzkBVVac3sjY8aWsGQtDAB72oA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>46499419727</string>
+	<string>466919694108</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.mycompany.unico</string>
 	<key>PROJECT_ID</key>
-	<string>unico-46df2</string>
+	<string>unico-6f97e</string>
 	<key>STORAGE_BUCKET</key>
-	<string>unico-46df2.appspot.com</string>
+	<string>unico-6f97e.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:46499419727:ios:835f8143054954ce077c3a</string>
+	<string>1:466919694108:ios:d1abce61b7609d2538e4d9</string>
 </dict>
 </plist>
