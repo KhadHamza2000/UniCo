@@ -8,6 +8,7 @@ export '../base_auth_user_provider.dart';
 class UnicoFirebaseUser extends BaseAuthUser {
   UnicoFirebaseUser(this.user);
   User? user;
+  @override
   bool get loggedIn => user != null;
 
   @override

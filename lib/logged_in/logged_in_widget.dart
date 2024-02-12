@@ -2,25 +2,25 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'sign_in_model.dart';
-export 'sign_in_model.dart';
+import 'logged_in_model.dart';
+export 'logged_in_model.dart';
 
-class SignInWidget extends StatefulWidget {
-  const SignInWidget({super.key});
+class LoggedInWidget extends StatefulWidget {
+  const LoggedInWidget({super.key});
 
   @override
-  State<SignInWidget> createState() => _SignInWidgetState();
+  State<LoggedInWidget> createState() => _LoggedInWidgetState();
 }
 
-class _SignInWidgetState extends State<SignInWidget> {
-  late SignInModel _model;
+class _LoggedInWidgetState extends State<LoggedInWidget> {
+  late LoggedInModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => SignInModel());
+    _model = createModel(context, () => LoggedInModel());
   }
 
   @override
@@ -52,7 +52,7 @@ class _SignInWidgetState extends State<SignInWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primary,
           automaticallyImplyLeading: false,
           title: Text(
-            'Sign In',
+            'Logged in',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: Colors.white,
